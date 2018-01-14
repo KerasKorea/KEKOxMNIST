@@ -19,7 +19,7 @@ Units: accuracy %
 
 |Model|Sample|Comment|
 |:-|:-:|:-|
-|[GAN](#GAN)|||
+|[GAN](#gan)|||
 |DCGAN|||
 |cGAN|||
 
