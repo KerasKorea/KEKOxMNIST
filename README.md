@@ -1,22 +1,29 @@
+[vgg16]: https://github.com/Curt-Park/handwritten_digit_recognition/blob/master/vgg16.py
+[mobilenet]: https://github.com/Curt-Park/handwritten_digit_recognition/blob/master/mobilenet.py
+[resnet164]: https://github.com/Curt-Park/handwritten_digit_recognition/blob/master/resnet164.py
+[wideresnet28-10]: https://github.com/Curt-Park/handwritten_digit_recognition/blob/master/wide_resnet_28_10.py
+
 # KEKOxMNIST
-손글씨(MNIST)을 이용한 분류 및 생성모델 등 각종 케라스 모델 모음입니다.
+Classification & generative models on MNIST, implemented by Keras.
 
-### 분류 모델 순위
+## Classification models
 
-|모델|검증|테스트|
-|:-|-:|-:|
-|Simple MLP|0.0%|0.0%|
-|Simple convnet|0.0%|0.0%|
-|VGG-like convnet|0.0%|0.0%|
-|VGG16|0.0%|0.0%|
-|Mobilenet|0.0%|0.0%|
-|Resnet164|0.0%|0.0%|
-|WideResnet28-10|0.0%|0.0%|
+Units: accuracy %
 
-### 생성 모델
+|Model|Validation|Test|Comment|
+|:-:|:-:|:-:|:-|
+|Simple MLP|0.0%|0.0%||
+|Simple convnet|0.0%|0.0%||
+|VGG-like convnet|0.0%|0.0%||
+|[VGG16][vgg16]|99.61%|99.68%|Batch size: 64, Epoch: 200, Image standardization, Data augmentation: rotating(15), width/height shift(0.1), shearing(0.2), zooming(0.1)|
+|[Mobilenet][mobilenet]|99.63%|99.68%|Batch size: 64, Epoch: 200, Image standardization, Data augmentation: rotating(15), width/height shift(0.1), shearing(0.2), zooming(0.1)|
+|[Resnet164][resnet164]|99.72%|99.70%|Batch size: 128, Epoch: 200, Image standardization, Data augmentation: rotating(15), width/height shift(0.1), shearing(0.2), zooming(0.1)|
+|[WideResnet28-10][wideresnet28-10]|99.72%|99.76%|Batch size: 128, Epoch: 200, Image standardization, Data augmentation: rotating(15), width/height shift(0.1), shearing(0.2), zooming(0.1)|
 
-|모델|샘플|
-|:-|:-:|
-|GAN||
-|DCGAN||
-|cGAN||
+## Generative models
+
+|Model|Sample|Comment|
+|:-:|:-:|:-|
+|GAN|||
+|DCGAN|||
+|cGAN|||
