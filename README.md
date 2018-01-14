@@ -15,10 +15,10 @@ Units: accuracy %
 |Simple MLP|0.0%|0.0%||
 |Simple convnet|0.0%|0.0%||
 |VGG-like convnet|0.0%|0.0%||
-|[VGG16][vgg16]|99.61%|99.68%|Batch size: 64, epoch: 200, image standardization, data augmentation: rotating(15), width/height shift(0.1), shearing(0.2), zooming(0.1)|
-|[Mobilenet][mobilenet]|99.63%|99.68%|Batch size: 64, epoch: 200, image standardization, data augmentation: rotating(15), width/height shift(0.1), shearing(0.2), zooming(0.1)|
-|[Resnet164][resnet164]|99.72%|99.70%|Batch size: 128, epoch: 200, image standardization, data augmentation: rotating(15), width/height shift(0.1), shearing(0.2), zooming(0.1)|
-|[WideResnet28-10][wideresnet28-10]|99.72%|99.76%|Batch size: 128, epoch: 200, image standardization, data augmentation: rotating(15), width/height shift(0.1), shearing(0.2), zooming(0.1)|
+|[VGG16][vgg16]|99.61%|99.68%|Batch size: 64, Epoch: 200, Image standardization, Data augmentation: rotating(15), width/height shift(0.1), shearing(0.2), zooming(0.1)|
+|[Mobilenet][mobilenet]|99.63%|99.68%|Batch size: 64, Epoch: 200, Image standardization, Data augmentation: rotating(15), width/height shift(0.1), shearing(0.2), zooming(0.1)|
+|[Resnet164][resnet164]|99.72%|99.70%|Batch size: 128, Epoch: 200, Image standardization, Data augmentation: rotating(15), width/height shift(0.1), shearing(0.2), zooming(0.1)|
+|[WideResnet28-10][wideresnet28-10]|99.72%|99.76%|Batch size: 128, Epoch: 200, Image standardization, Data augmentation: rotating(15), width/height shift(0.1), shearing(0.2), zooming(0.1)|
 
 ## Generative models
 
