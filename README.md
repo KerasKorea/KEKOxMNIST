@@ -1,22 +1,39 @@
 # KEKOxMNIST
-손글씨(MNIST)을 이용한 분류 및 생성모델 등 각종 케라스 모델 모음입니다.
+Classification & generative models on MNIST, implemented by Keras.
 
-### 분류 모델 순위
+## Classification models
 
-|모델|검증|테스트|
-|:-|-:|-:|
-|Simple MLP|0.0%|0.0%|
-|Simple convnet|0.0%|0.0%|
-|VGG-like convnet|0.0%|0.0%|
-|VGG16|0.0%|0.0%|
-|Mobilenet|0.0%|0.0%|
-|Resnet164|0.0%|0.0%|
-|WideResnet28-10|0.0%|0.0%|
+Units: accuracy %
 
-### 생성 모델
+|Model|Validation|Test|Comment|
+|:-:|:-:|:-:|:-|
+|Simple MLP|0.0%|0.0%||
+|Simple convnet|0.0%|0.0%||
+|VGG-like convnet|0.0%|0.0%||
+|VGG16|99.61%|99.68%||
+|Mobilenet|99.63%|99.68%||
+|Resnet164|99.72%|99.70%||
+|WideResnet28-10|99.72%|99.76%||
 
-|모델|샘플|
-|:-|:-:|
-|GAN||
-|DCGAN||
-|cGAN||
+## Generative models
+
+|Model|Sample|Comment|
+|:-|:-:|:-|
+|[GAN](#GAN)|||
+|DCGAN|||
+|cGAN|||
+
+## Details
+### 1. Classification models
+#### Simple MLP
+#### Simple convnet
+#### VGG-like convnet
+#### VGG16
+#### Mobilenet
+#### Resnet164
+#### WideResnet28-10
+
+### 2. Generative models
+#### GAN
+#### DCGAN
+#### cGAN
